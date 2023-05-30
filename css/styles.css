@@ -26,11 +26,14 @@
 .subtitulo{
     align-items: center;
     text-align: justify;
+    margin: 20px;
 }
+
 .card {
-    display: block;
+    display: inline-block;
     width: 350px;
     height: 300px;
+    margin: 10px;
     border: 1px solid lightgray;
     font-family: Arial, Helvetica, sans-serif;
 }
