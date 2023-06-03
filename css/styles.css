@@ -24,19 +24,43 @@
     border-radius: 5px;
 }
 .subtitulo{
+    display: flex;
     align-items: center;
     text-align: justify;
     margin: 20px;
 }
 
-.card {
-    display: inline-block;
-    width: 350px;
-    height: 300px;
-    margin: 10px;
-    border: 1px solid lightgray;
-    font-family: Arial, Helvetica, sans-serif;
+.contenedor-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;   
+    align-items: center;
+    gap: 10px;
 }
+.card {
+    width: 300px;
+    height: 350px;
+    border: 1px solid lightgray;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+.card img{
+    width: 150px;
+    height: 150px;
+}
+.card h3{
+    color: yellowgreen;
+    text-align: start;
+    font-size: 22px;
+}
+.card p{
+    text-align: start;
+    font-size: 16px;
+}
+
+
 .footer-link {
     background-color: lightgreen;
 }
